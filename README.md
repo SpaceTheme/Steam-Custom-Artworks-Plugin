@@ -23,7 +23,9 @@ The plugin installs the artworks for the games you own and keeps them up to date
 2. Install the **Steam-Custom-Artworks** plugin and enable it in Millennium's plugin settings.
 3. Restart Steam. The plugin installs the artworks for your games (about 3 minutes for 700 games) and shows the progress in a Steam notification.
 
-Don't use Millennium? See the [manual installation](https://github.com/SpaceTheme/Steam-Custom-Artworks#-installation) in the artwork repository.
+### Without Millennium
+
+On **[spacetheme.net/artworks](https://spacetheme.net/artworks)** you can enter your Steam profile and download the artworks of only the games you own as a `grid.zip`. That's a one-time download: no automatic updates, no color options, no game page banner fix, and new artworks need a new download. The complete pack with every artwork and the manual install steps are in the [artwork repository](https://github.com/SpaceTheme/Steam-Custom-Artworks#-installation).
 
 ## ⚙️ Settings
 
@@ -41,6 +43,10 @@ Open the plugin in Millennium to find these settings:
 | **Reinstall all artworks** | Create the artworks for every game in your library again |
 | **Request an artwork** | Opens the request form on GitHub |
 | **Remove all artworks** | Restores Steam's default artwork for every game the plugin changed (asks for confirmation first) |
+
+## 🐞 Bugs and ideas
+
+Found a bug or have an idea for the plugin? [Open an issue](https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin/issues/new/choose). Artwork requests go to the [artwork repository](https://github.com/SpaceTheme/Steam-Custom-Artworks/issues/new?template=ARTWORK.yml).
 
 ## 🗳️ Request or replace an artwork
 

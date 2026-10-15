@@ -1,0 +1,21 @@
+[plugin]
+id = "spacetheme.steam-custom-artworks"
+name = "Steam-Custom-Artworks"
+version = "1.0.0"
+author = "SpaceTheme"
+description = "Keeps the SpaceTheme Steam-Custom-Artworks of your library up to date and lets you request new ones from the game's context menu."
+
+[frontend]
+entry = "frontend/index.tsx"
+
+[compiler]
+# auto = build straight into the local Millennium installation
+output_path = "auto"
+
+[dev]
+auto_restart = true
+reload_steamui_when = "both"
+
+[logger]
+padding = 0
+frontend_prefix = "SCA-FRT"

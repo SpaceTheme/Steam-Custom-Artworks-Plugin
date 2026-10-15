@@ -1,0 +1,36 @@
+name: Feature Request
+description: Suggest an idea for the plugin!
+title: "[Feature] "
+type: "Feature"
+labels: [enhancement]
+projects: "SpaceTheme/3"
+assignees: SpaceEnergy
+body:
+- type: markdown
+  attributes:
+    value: |
+      Ideas for the artwork design or new color themes can go to the [artwork repository](https://github.com/SpaceTheme/Steam-Custom-Artworks/issues) or the [Discord server](https://discord.spacetheme.net).
+- type: checkboxes
+  attributes:
+    label: I checked the following before reporting a feature request
+    description: Please check the following before reporting a feature request. This helps us to quickly identify and resolve issues.
+    options:
+    - label: I found no existing issue matching my feature request
+      required: true
+    - label: I have checked the plugin settings
+      required: true
+    - label: I use the latest version
+      required: true
+- type: textarea
+  attributes:
+    label: Describe the feature
+    description: A concise description of what you would like to see.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Links? References? Anything that will give us more context about the feature you would like to see!
+
+      Tip: You can attach images by clicking this area to highlight it and then dragging files in.

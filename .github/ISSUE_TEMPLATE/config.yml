@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🗳️ Request or change an artwork
+    url: https://github.com/SpaceTheme/Steam-Custom-Artworks/issues/new?template=ARTWORK.yml
+    about: Artworks are requested in the artwork repository, not here.
+  - name: 💬 Discord Server
+    url: https://discord.spacetheme.net
+    about: For simple questions and discussions, join our Discord server.
